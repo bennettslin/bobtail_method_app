@@ -1,7 +1,6 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import cx from 'classnames'
-import Content from './Content'
 import './style'
 
 const Main = ({ children }) => (
@@ -12,7 +11,7 @@ const Main = ({ children }) => (
             ),
         }}
     >
-        <Content>{children}</Content>
+        {children}
     </div>
 )
 

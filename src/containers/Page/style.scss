@@ -1,13 +1,14 @@
 @import '../../scss/constants/responsive';
 
 .Page {
+    flex-grow: 1;
     width: 100%;
 
     display: flex;
     flex-direction: column;
     align-items: center;
 
-    // padding: $margin__wide;
+    padding: $margin__wide;
     box-sizing: border-box;
     overflow-y: scroll;
 
