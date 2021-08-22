@@ -13,13 +13,13 @@ export const getMetaTitle = ({
     page,
     title,
 }) => (
-    `${page === HOME_PAGE ? '' : `${title || capitalise(page)} | `}Bobtail Yearlings`
+    `${page === HOME_PAGE ? '' : `${title || capitalise(page)} | `}Bobtail Method`
 )
 
 export const getMetaDescription = description => (
     description ?
         getTruncatedText(description) :
-        'Website for the band Bobtail Yearlings.'
+        'Website for the songwriting lesson plan Bobtail Method.'
 )
 
 const getDefaultConfig = description => ({
@@ -38,7 +38,7 @@ const getFacebookConfig = ({
         title,
     }),
     'og:description': getMetaDescription(description),
-    'og:image': getUrlForFile(`share/image/facebook/bobtailYearlings.png`),
+    'og:image': getUrlForFile(`share/image/facebook/bobtailMethod.png`),
 })
 
 const getTwitterConfig = ({
@@ -54,7 +54,7 @@ const getTwitterConfig = ({
     }),
     'twitter:description': getMetaDescription(description),
     'twitter:image':
-        getUrlForFile(`share/image/twitter/bobtailYearlings.png`),
+        getUrlForFile(`share/image/twitter/bobtailMethod.png`),
 })
 
 const spreadHelmetConfig = ({ config, nameKey }) => (
