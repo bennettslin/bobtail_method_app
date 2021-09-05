@@ -1,5 +1,10 @@
+import {
+    APP_DESCRIPTION,
+    APP_TITLE,
+    getFaviconFileName,
+    getS3BucketName,
+} from './src/utils/server'
 import { GA_ACCOUNT } from './src/constants/analytics'
-import { getFaviconFileName } from './src/utils/server'
 
 export default {
     plugins: [
@@ -14,9 +19,9 @@ export default {
         {
             resolve: `gatsby-plugin-manifest`,
             options: {
-                name: `Bobtail Method`,
-                short_name: `Bobtail Method`,
-                description: 'Website for the songwriting lesson plan Bobtail Method',
+                name: APP_TITLE,
+                short_name: APP_TITLE,
+                description: APP_DESCRIPTION,
                 start_url: '/',
                 background_color: '#e6e6ad',
                 theme_color: '#b38e6b',
@@ -30,7 +35,7 @@ export default {
         {
             resolve: `gatsby-plugin-s3`,
             options: {
-                bucketName: 'bobtailmethod--production',
+                bucketName: getS3BucketName(),
             },
         },
     ],

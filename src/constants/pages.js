@@ -1,4 +1,6 @@
-const DOMAIN = `https://www.bobtailmethod.com`
+import { DOMAIN } from '../utils/server'
+
+const DOMAIN_NAME = `https://www.${DOMAIN}.com`
 
 export const HOME_PAGE = 'home'
 export const NOT_FOUND_PAGE = '404'
@@ -13,9 +15,9 @@ export const getUrlForPage = page => {
         // Include ending forward slash because Twitter warns about redirects.
         finalSlash = page === HOME_PAGE ? '' : '/'
 
-    return `${DOMAIN}${pagePath}${finalSlash}`
+    return `${DOMAIN_NAME}${pagePath}${finalSlash}`
 }
 
 export const getUrlForFile = filePath => (
-    `${DOMAIN}${getPathForPage(filePath)}`
+    `${DOMAIN_NAME}${getPathForPage(filePath)}`
 )
