@@ -8,11 +8,11 @@
     flex-direction: column;
     align-items: center;
 
-    padding: $margin__wide;
+    padding: $margin__md;
     box-sizing: border-box;
     overflow-y: scroll;
 
-    @media (min-width: $width__page__wide) {
-        width: $width__page__wide;
+    @media (min-width: $breakpoint__lg) {
+        width: $breakpoint__lg;
     }
 }

@@ -3,12 +3,12 @@
 
 .Heading {
     color: $colour__primary__dark;
-    margin-bottom: $margin__wide;
+    margin-bottom: $margin__md;
 }
 
 h1 {
     &.Heading {
-        margin-bottom: $margin__wide + $margin__narrow * 2;
+        margin-bottom: $margin__md + $margin__xs * 2;
     }
 }
 
