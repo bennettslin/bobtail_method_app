@@ -1,7 +1,6 @@
 import React from 'react'
 import cx from 'classnames'
-import HeaderButton from '../HeaderButton'
-import { HOME_PAGE } from '../../../constants/pages'
+import Heading from '../../../components/Heading'
 import './style'
 
 const Menu = () => (
@@ -12,9 +11,9 @@ const Menu = () => (
             ),
         }}
     >
-        <HeaderButton {...{ pageLink: HOME_PAGE }}>
+        <Heading>
             Bobtail Method
-        </HeaderButton>
+        </Heading>
     </div>
 )
 

@@ -1,9 +1,0 @@
-@import '../../../scss/constants/responsive';
-
-.HeaderButton {
-    font-size: 2em;
-
-    @media (min-width: $breakpoint__md) {
-        font-size: 3em;
-    }
-}
