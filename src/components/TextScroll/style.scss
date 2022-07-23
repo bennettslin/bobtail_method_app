@@ -1,0 +1,6 @@
+@import '../../scss/constants/responsive';
+
+.TextScroll {
+    max-width: $breakpoint__xs;
+    overflow-y: scroll;
+}

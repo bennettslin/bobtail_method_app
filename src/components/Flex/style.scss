@@ -1,0 +1,45 @@
+@import '../../scss/constants/responsive';
+
+.Flex {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    &.fG__1 { flex-grow: 1; }
+
+    &.fD__column { flex-direction: column; }
+    &.fD__columnReverse { flex-direction: column-reverse; }
+
+    &.jC__normal { justify-content: normal; }
+    &.jC__spaceBetween { justify-content: space-between; }
+    &.jC__spaceEvenly { justify-content: space-evenly; }
+    &.jC__start { justify-content: start; }
+    &.jC__end { justify-content: end; }
+
+    &.aI__normal { align-items: normal; }
+    &.aI__start { align-items: start; }
+    &.aI__flexEnd { align-items: flex-end; }
+
+    &.fW__wrap { flex-wrap: wrap; }
+
+    &.gap__xxs { gap: $margin__xs * 0.5; }
+    &.gap__xs { gap: $margin__xs; }
+    &.gap__sm { gap: $margin__sm; }
+    &.gap__md { gap: $margin__md; }
+
+    &.columnGap__sm { column-gap: $margin__sm; }
+}
+
+@media
+(min-width: $breakpoint__xs) and (orientation: portrait),
+(min-height: $breakpoint__xs) and (orientation: landscape) {
+    .Flex {
+        &.xs__jC__spaceBetween { justify-content: space-between; }
+
+        &.xs__gap__xs { gap: $margin__xs; }
+        &.xs__gap__sm { gap: $margin__sm; }
+
+        &.xs__columnGap__md { column-gap: $margin__md; }
+    }
+}
