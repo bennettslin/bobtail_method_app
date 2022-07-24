@@ -1,14 +1,15 @@
 @import '../../scss/constants/responsive';
 
 .TextScroll {
-    padding: $margin__sm 0;
     overflow-y: scroll;
-
+    padding: $margin__sm 0;
+    
     @media (orientation: portrait) {
         width: 100%;
     }
-
+    
     @media (orientation: landscape) {
+        padding-right: $margin__sm;
         max-width: $width__sm * 0.5;
     }
 
