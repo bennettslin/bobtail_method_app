@@ -11,7 +11,10 @@ const TextScroll = ({
         {...{
             className: cx(
                 'TextScroll',
+                'gradientMask__scroll',
             ),
+            flexDirection: 'column',
+            justifyContent: 'normal',
         }}
     >
         {children}

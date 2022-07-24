@@ -1,21 +1,23 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import cx from 'classnames'
+import Flex from '../../components/Flex'
 import Header from '../Header'
 import Main from '../Main'
 import './style'
 
 const Wrapper = ({ children }) => (
-    <div
+    <Flex
         {...{
             className: cx(
                 'Wrapper',
             ),
+            flexDirection: 'column',
         }}
     >
         <Header />
         <Main>{children}</Main>
-    </div>
+    </Flex>
 )
 
 Wrapper.propTypes = {

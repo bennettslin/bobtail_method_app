@@ -1,6 +1,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import cx from 'classnames'
+import Flex from '../../components/Flex'
 import Helmet from '../../components/Helmet'
 import './style'
 
@@ -8,16 +9,17 @@ const Page = ({
     title,
     children,
 }) => (
-    <div
+    <Flex
         {...{
             className: cx(
                 'Page',
             ),
+            // alignItems: 'normal',
         }}
     >
         <Helmet {...{ title }} />
         {children}
-    </div>
+    </Flex>
 )
 
 Page.propTypes = {

@@ -1,18 +1,10 @@
 @import '../../scss/constants/responsive';
 
 .Page {
-    flex-grow: 1;
     width: 100%;
+    // height: calc(100vh - #{$height__appHeader});
 
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-
-    padding: $margin__md;
+    padding: 0 $margin__sm $margin__sm;
     box-sizing: border-box;
-    overflow-y: scroll;
-
-    // @media (min-width: $breakpoint__lg) {
-    //     width: $breakpoint__lg;
-    // }
+    overflow: hidden;
 }

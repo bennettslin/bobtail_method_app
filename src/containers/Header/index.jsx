@@ -1,10 +1,11 @@
 import React from 'react'
 import cx from 'classnames'
+import Flex from '../../components/Flex'
 import Menu from './Menu'
 import './style'
 
 const Header = () => (
-    <div
+    <Flex
         {...{
             className: cx(
                 'Header',
@@ -12,7 +13,7 @@ const Header = () => (
         }}
     >
         <Menu />
-    </div>
+    </Flex>
 )
 
 export default Header

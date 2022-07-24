@@ -2,4 +2,18 @@
 
 .HomeLayout {
     width: 100%;
+
+    @media (orientation: portrait) {
+        flex-direction: column;
+    }
+
+    @media (orientation: landscape) {
+        height: calc(100vh - #{$height__appHeader + $margin__sm});
+    }
+}
+
+.HomeLayout__pdf {
+    @media (orientation: portrait) {
+        min-height: 66vh;
+    }
 }

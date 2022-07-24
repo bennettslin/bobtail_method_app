@@ -2,15 +2,7 @@
 
 .Header {
     width: 100%;
+    height: $height__appHeader;
     box-sizing: border-box;
-    padding: $margin__xs $margin__md;
-
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-
-    // @media (min-width: $breakpoint__md) {
-    //     flex-direction: row;
-    // }
+    padding: $margin__xs $margin__sm;
 }

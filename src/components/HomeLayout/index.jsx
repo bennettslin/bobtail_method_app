@@ -21,6 +21,12 @@ const HomeLayout = ({
     >
         <Flex
             {...{
+                className: cx(
+                    'HomeLayout__pdf',
+                ),
+                flexDirection: 'column',
+                // justifyContent: 'normal',
+                // alignItems: 'normal',
                 flexGrow: 1,
             }}
         >

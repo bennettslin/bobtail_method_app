@@ -1,6 +1,22 @@
 @import '../../scss/constants/responsive';
 
 .TextScroll {
-    max-width: $breakpoint__xs;
+    padding: $margin__sm 0;
     overflow-y: scroll;
+
+    @media (orientation: portrait) {
+        width: 100%;
+    }
+
+    @media (orientation: landscape) {
+        max-width: $width__sm * 0.5;
+    }
+
+    @media (min-width: $breakpoint__xs) and (orientation: landscape) {
+        max-width: $width__sm * 0.75;
+    }
+
+    @media (min-width: $breakpoint__sm) and (orientation: landscape) {
+        max-width: $width__sm;
+    }
 }
