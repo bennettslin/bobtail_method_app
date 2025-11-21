@@ -18,7 +18,7 @@ const Home = () => (
                     {`
 ### Who we're looking for
 
-Hi, I'm Bennett from the [Bobtail Yearlings](https://www.bobtailyearlings.com)! We're hoping to find a business partner who recognizes the opportunity presented by *Bobtail Method*, our songwriting book. I wrote the manuscript that you see here as a proof of concept to win over the indie labels. I never published it on my own— not just because a songwriting book from an unknown band has zero value— but also because it probably works best as an interactive tutorial.
+Hi, I'm Bennett from the [Bobtail Yearlings](https://www.bobtailyearlings.com)! We're looking for a business partner who recognizes the opportunity presented by *Bobtail Method*, our songwriting book. I wrote the manuscript you see here as a proof of concept to win over the indie labels. I never did publish it on my own— and not just because a songwriting book from an unknown band has zero value; it also works best as an interactive tutorial, I think.
 
 If you're an entrepreneur with the vision to understand what *Bobtail Method* can be worth with your investment and support, and you're interested in partnering with us to turn it into an online app for web and mobile platforms, please get in touch!
                     `}
@@ -38,7 +38,7 @@ I just figured that, if you're a label, then surely this is what you'd rather se
 
 So I invented [spatial amnesticism](https://digital.lib.washington.edu/researchworks/handle/1773/23566), a theory for tonal composition in multidimensional spaces; I patented [*Bobtail Dominoes*](https://bobtaildominoes.com), a musical tile game; and I coded and illustrated an audio webcomic to go along with *Yearling's Bobtail*. But sadly, the indie labels dismissed every one of these projects as well. Finally, it hit me: I'll never meet the threshold, because there isn't one. It's not possible to avoid the hustle by advancing the art form instead, because the indie labels are loyal to the *hustle*. And because they're seen as "good guys," the public is on their side.
 
-Have no fear, though. There *are* those out there who'd like to see the art form advance once again. And given that you're here, you might be one of them!
+Have no fear, though: There *are* those out there who'd like to see the art form advance once again. And given that you're here, you might be one of them!
                     `}
                 </Markdown>
             </Flex>
