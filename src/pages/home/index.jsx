@@ -18,7 +18,7 @@ const Home = () => (
                     {`
 ### Who we're looking for
 
-Hi, I'm Bennett from the [Bobtail Yearlings](https://www.bobtailyearlings.com)! We're looking for a business partner who recognizes the opportunity presented by *Bobtail Method*, our songwriting book. I wrote the manuscript you see here as a proof of concept to win over the indie labels. I never did publish it on my own— and not just because a songwriting book from an unknown band has zero value; it also works better as an interactive tutorial, I think.
+Hi, I'm Bennett from the [Bobtail Yearlings](https://www.bobtailyearlings.com)! We're looking for a business partner who recognizes the opportunity presented by *Bobtail Method*, our songwriting book. I wrote the manuscript you see here as a proof of concept to win over the indie labels. I never published it on my own— and not just because a songwriting book from an unknown band has zero value; it also works better as an interactive tutorial, I think.
 
 So if you're an entrepreneur with the vision to understand what *Bobtail Method* can be worth, and you're interested in partnering with us to turn it into an online app for web and mobile platforms… please get in touch!
                     `}
@@ -28,7 +28,7 @@ So if you're an entrepreneur with the vision to understand what *Bobtail Method*
                     {`
 ### The backstory
 
-Back when [*Yearling's Bobtail*](https://www.yearlingsbobtail.com) was a standalone album, I sent out demo CDs and got a good response from several indie labels. But they wanted me to build a fanbase on my own, which confused me. I'm a nobody; it would take me years to reach the same number of listeners that a label can reach in one day. If the idea of a label is to make any sense at all, then *my* role should be to spend all my time and energy creating a remarkable work that, combined with *their* investment and support, might win over the public. And in making my "*Ulysses* of rock albums"… well, I thought I'd done that.
+Back when [*Yearling's Bobtail*](https://www.yearlingsbobtail.com) was a standalone album, I sent out demo CDs and got a good response from several indie labels. But they wanted me to build a fanbase on my own, which confused me. I'm a nobody; it'd take me years to reach the number of listeners that a label can reach in one day. If the idea of a label is to make any sense at all, then *my* role should be to spend all my time and energy creating a remarkable work that, with *their* investment and support, might win over the public. And in making my "*Ulysses* of rock albums"… well, I thought I'd done that.
 
 But, okay, I tried to do things their way for a while. I tried the hustle. And… it didn't feel good at all. I wasn't building my talents; I wasn't advancing the art form. In fields where genuine innovation happens, fake work that wastes your time is known as "bullshit"— I don't like to curse, but that's the technical term— and my bullshit detector kept going off; it kept telling me this is the wrong way to go. So I decided not to hustle. And anyone who cares about the art form wouldn't want me to, either.
 
