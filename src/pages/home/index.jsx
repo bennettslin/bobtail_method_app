@@ -38,10 +38,6 @@ Instead of building a fanbase, then, I wrote *Bobtail Method* and sent out promo
 - As someone who cares about helping other artists improve, I can help the ones on *their* rosters.
 - And, by using my own songs as examples, the book can promote the album— and vice versa.
 
-${'  ' || `
-// TODO: Review.
-`}
-
 I just figured that, if you're a label, then surely this is what you'd rather see a band do. Obviously, bands should innovate; the option to build a fanbase is just a bone you toss to those who can't. Right? Well… no. The indies still insisted that I build a fanbase. But I didn't see anything wrong with my reasoning, so I just assumed I hadn't met some threshold. As long as I stuck to my strategy of always trying to innovate, then they'd eventually come to see my worth, however many more years it might take. And so:
 
 - I invented [spatial amnesticism](https://digital.lib.washington.edu/researchworks/handle/1773/23566), a theory for tonal composition in multidimensional spaces.
